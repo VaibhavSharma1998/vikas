@@ -56,10 +56,25 @@ function App() {
           <div>
             <h1 className='max-sm:text-5xl  max-md:text-5xl  lg:text-7xl   font-semibold '>Upcoming <span className='text-[#66DA43]'>Talks</span></h1>
             <h1 className='text-3xl font-semibold mt-8'>API Security 101</h1>
-            <a href='https://www.hack.sydney/' target='blank' className='text-lg hover:text-blue-400 hover:underline text-[#66DA43] focus:text-gray-400' >HCKSYD Sydney 2023: November 23-24</a>
+            <ul className="text-xl list-disc list-inside ">
+              <li>
+              <a href='https://www.hack.sydney/' target='blank' className='text-lg hover:text-blue-400 hover:underline text-[#66DA43] focus:text-gray-400' >HCKSYD Sydney 2023: November 23-24</a>
+              </li>
+              <li>
+              <a href='https://blackhatmea.com/' target='blank' className='text-lg hover:text-blue-400 hover:underline text-[#66DA43] focus:text-gray-400 mt-5 ' >BlackHat MEA 2023: November 15</a>
+              </li>
+            </ul>
+           
             <p className='mt-5 text-xl'>I intend to deliver a session focusing on API security and the common vulnerabilities encountered in API implementations. In the course of my research, I've pinpointed two security issues within Apple's system, with a total estimated value of $10,000 USD. These particular concerns will be presented and thoroughly discussed as an essential component of my presentation.</p>
             <h1 className='mt-5 text-3xl font-semibold'>Unlocking the Gates - Understanding Authentication Bypass Vulnerabilities</h1>
-            <a href='https://www.hack.sydney/' target='blank' className='text-lg hover:text-blue-400 hover:underline text-[#66DA43] focus:text-gray-400'>HCKSYD Sydney 2023: November 23-24</a>
+            <ul className="text-xl list-disc list-inside ">
+              <li>
+              <a href='https://www.hack.sydney/' target='blank' className='text-lg hover:text-blue-400 hover:underline text-[#66DA43] focus:text-gray-400' >HCKSYD Sydney 2023: November 23-24</a>
+              </li>
+              <li>
+              <a href='https://blackhatmea.com/' target='blank' className='text-lg hover:text-blue-400 hover:underline text-[#66DA43] focus:text-gray-400 mt-5 ' >BlackHat MEA 2023: November 15</a>
+              </li>
+            </ul>
             <p className='mt-5 text-xl'>"Unlocking the Gates - Understanding Authentication Bypass Vulnerabilities" provides a captivating and informative experience for individuals engaged in securing digital systems. Participants will gain a heightened awareness of authentication vulnerabilities, along with practical strategies to strengthen their application's security. By fortifying the gates against unauthorized access, sensitive data, and user identities will be safeguarded. During the session, I will share my own discovery of an authentication bypass vulnerability in one of Apple's subdomains, offering a real-world example of its impact. Additionally, I will delve into over 15 techniques that can be employed to bypass authentication or gain control of user accounts. This comprehensive discussion will equip attendees with valuable insights into the methods attackers use and empower them to proactively defend against potential threats.</p>
           </div>
           <div>
@@ -87,9 +102,9 @@ function App() {
             <li className="">2015 - <span className="text-[#66DA43]">Hall Of Fame, BlackBerry</span></li>
             <li className="">2015 - <span className="text-[#66DA43]">Hall Of Fame, Sony</span></li>
           </ul>
-          </div>
+          </div> 
         </div>
-      </div>
+      </div>   
     </div>
   )
 }
