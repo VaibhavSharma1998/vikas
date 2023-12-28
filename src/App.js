@@ -68,9 +68,9 @@ function App() {
             <p className='mt-5 text-xl'>I intend to deliver a session focusing on API security and the common vulnerabilities encountered in API implementations. In the course of my research, I've pinpointed two security issues within Apple's system, with a total estimated value of $10,000 USD. These particular concerns will be presented and thoroughly discussed as an essential component of my presentation.</p>
             <h1 className='mt-5 text-3xl font-semibold'>Unlocking the Gates - Understanding Authentication Bypass Vulnerabilities</h1>
             <ul className="text-xl list-disc list-inside ">
-              <li>
+              {/* <li>
               <a href='https://www.hack.sydney/' target='blank' className='text-lg hover:text-blue-400 hover:underline text-[#66DA43] focus:text-gray-400' >HCKSYD Sydney 2023: November 23-24</a>
-              </li>
+              </li> */}
               <li>
               <a href='https://blackhatmea.com/' target='blank' className='text-lg hover:text-blue-400 hover:underline text-[#66DA43] focus:text-gray-400 mt-5 ' >BlackHat MEA 2023: November 15</a>
               </li>
