@@ -32,7 +32,7 @@ function App() {
                   < AiTwotoneBug className='hover:bg-[#66DA43] text-black border bg-white rounded' size={35}/>
                 </a>
                 <a href="https://privasec.com/" target='blank' className='mr-5'>
-                  <img src={Privasec} alt="Priyasec-logo" sizes={40} srcset="" className='hover:bg-[#496b3e] border   bg-white rounded'/>
+                  <img src={Privasec} alt="Priyasec-logo" sizes={40}  className='hover:bg-[#496b3e] border   bg-white rounded'/>
                 </a>
               </div>
             </div>
@@ -48,7 +48,7 @@ function App() {
                   < AiTwotoneBug className='hover:bg-[#66DA43] text-black border bg-white rounded' size={35}/>
                 </a>
                 <a href="https://privasec.com/" target='blank' className='mr-5'>
-                  <img src={Privasec} alt="Priyasec-logo" sizes={40} srcset="" className='hover:bg-[#496b3e] border   bg-white rounded' />
+                  <img src={Privasec} alt="Priyasec-logo" sizes={40}  className='hover:bg-[#496b3e] border   bg-white rounded' />
                 </a>
               </div>
           </div>
