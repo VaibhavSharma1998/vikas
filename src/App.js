@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from './Vikas.png'
+// import Image from './Vikas.png'
 import Privasec from './Privasec.png'
 import { BsLinkedin } from "react-icons/bs";
 import { FaTwitterSquare } from "react-icons/fa";
@@ -36,7 +36,7 @@ function App() {
                 </a>
               </div>
             </div>
-            <img className=' md:w-80 md:h-80 mt-5 rounded-3xl rounded-br-3xl object-cover' src={Image} alt='' />
+            <img className=' md:w-80 md:h-80 mt-5 rounded-3xl rounded-br-3xl object-cover' src="https://res.cloudinary.com/dzmicyc9d/image/upload/v1703908223/Vikas.0d89502f4a0bbea7437d_gh04oj.jpg" alt='Vikas-khanna' />
             <div className='flex md:hidden items-center mt-10'>
                 <a href='https://www.linkedin.com/in/vikaskhanna01/' target='blank' className='mr-5'>
                   <BsLinkedin className='hover:text-gray-400' size={35} />
@@ -48,7 +48,7 @@ function App() {
                   < AiTwotoneBug className='hover:bg-[#66DA43] text-black border bg-white rounded' size={35}/>
                 </a>
                 <a href="https://privasec.com/" target='blank' className='mr-5'>
-                  <img src={Privasec} alt="Priyasec-logo" sizes={40} srcset="" className='hover:bg-[#496b3e] border   bg-white rounded'/>
+                  <img src={Privasec} alt="Priyasec-logo" sizes={40} srcset="" className='hover:bg-[#496b3e] border   bg-white rounded' />
                 </a>
               </div>
           </div>
